@@ -11,8 +11,8 @@ function App() {
     <BrowserRouter>
      <NavBarComponent/>
        <Routes>
-        <Route path = "/" element = {<Home />} />
-        <Route path = "/about" element = {<About />} />
+        <Route path = "/homepage" element = {<Home />} />
+        <Route path = "/aboutpage" element = {<About />} />
        </Routes>
     </BrowserRouter>
     </div>
